@@ -1,0 +1,176 @@
+/*in order to remove inital garbage*/
+
+*{
+    margin: 0ch;
+    padding: 0ch;
+}
+
+/*in order to remove the dots*/
+li{
+    list-style-type: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{    
+    font-family: sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .2cm;
+    padding-top: .15cm;
+    font-size: .35cm;
+    width: 100%;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+header ul li{
+    margin: 0.25cm;
+}
+header ul li button{
+    outline: none;
+    border: none;
+    background-color: rgb(31, 135, 231);
+    border-radius: .1cm;
+    width: 2.2cm;
+    height: 0.9cm;
+}
+header ul li button a{
+    color: white;
+    font-weight: 1500;
+    padding: .2cm;
+    padding-left: .55cm;
+    padding-right: .55cm;
+}
+header ul li button:hover{
+    background-color: rgb(27, 124, 214);
+}
+
+.images a:hover{
+    text-decoration: underline;
+}
+
+.gmail a:hover{
+    text-decoration: underline;
+}
+section{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    flex: 0 0 100px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5cm;
+    flex-wrap: wrap;
+}
+
+.searchbar{
+    flex-grow: 2;
+    padding-left: .4cm;
+    padding-right: .4cm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 1cm;
+    border: 1px solid lightgrey;
+    border-radius: 1cm;
+}
+.searchbar input{
+    width: 10cm;
+    border: none;
+    height: 0.8cm;
+    outline: none;
+    font-size: .4cm;
+}
+
+.searchbar:hover{
+    border: 0.25px solid rgb(163, 161, 161);
+}
+
+
+.staker button{
+    outline: none;
+    border: none;
+    padding: .25cm;
+    padding-left: .5cm;
+    padding-right: .5cm;
+    border-radius: .15cm;
+}
+.staker button:hover{
+    background-color: rgb(235, 233, 233);
+    border: .5px solid rgb(163, 161, 161);
+}
+.langs ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 13px;
+}
+.langs ul li p{
+    flex-wrap: nowrap;
+}
+.langs ul li{
+    margin: 5px;
+    align-items: center;
+}
+
+.langs ul li a{
+    color: rgb(11, 2, 129);
+}
+
+.langs ul li a:hover{
+    text-decoration: underline;
+}
+body{
+    min-height: 100vh;
+}
+
+footer{
+    position: sticky;
+    top: 100%;
+    background-color: rgb(119, 14, 14);
+    margin: auto;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+}
+footer p{
+    justify-content: space-around;
+}
+.lower_left{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lower_right{
+    float: right;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+header ul li img{
+    padding: .15cm;
+}
+header ul li img:hover{
+    border-radius: 5cm;
+    background-color: rgb(185, 185, 185);
+}
